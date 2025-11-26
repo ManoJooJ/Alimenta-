@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480" width="120" height="144">
+  <!-- Background circle -->
+  <circle cx="200" cy="140" r="110" fill="#e8e8e8"/>
+  
+  <!-- Heart outline - orange/left side -->
+  <path d="M200 90 C200 90, 160 110, 160 140 C160 170, 180 190, 200 210 C220 190, 240 170, 240 140 C240 110, 200 90, 200 90" 
+        fill="none" stroke="#f59e0b" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Heart outline - green/right side -->
+  <path d="M200 90 C200 90, 240 110, 240 140 C240 170, 220 190, 200 210 C180 190, 160 170, 160 140 C160 110, 200 90, 200 90" 
+        fill="none" stroke="#10b981" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Bowl shape -->
+  <ellipse cx="200" cy="170" rx="40" ry="15" fill="#3b82f6" opacity="0.8"/>
+  <path d="M 160 170 Q 160 190, 200 200 Q 240 190, 240 170" fill="#3b82f6" opacity="0.8"/>
+  <path d="M 160 170 Q 160 180, 200 190 Q 240 180, 240 170" fill="#2563eb"/>
+  
+  <!-- Food items in bowl - orange -->
+  <circle cx="185" cy="165" r="8" fill="#f59e0b"/>
+  <circle cx="200" cy="160" r="7" fill="#fbbf24"/>
+  <circle cx="215" cy="165" r="8" fill="#f59e0b"/>
+  <circle cx="210" cy="150" r="6" fill="#fbbf24"/>
+  
+  <!-- Light rays -->
+  <circle cx="180" cy="145" r="3" fill="#fbbf24"/>
+  <circle cx="220" cy="145" r="3" fill="#fbbf24"/>
+  <circle cx="175" cy="160" r="2.5" fill="#fbbf24"/>
+  <circle cx="225" cy="160" r="2.5" fill="#fbbf24"/>
+  
+  <!-- Leaves -->
+  <!-- Left leaf -->
+  <g transform="translate(180, 90)">
+    <ellipse cx="0" cy="0" rx="12" ry="20" fill="#65a30d" transform="rotate(-35)"/>
+    <path d="M 0 -15 Q 5 -10, 0 5" stroke="#4b7c0f" stroke-width="1.5" fill="none"/>
+  </g>
+  
+  <!-- Right leaf -->
+  <g transform="translate(220, 90)">
+    <ellipse cx="0" cy="0" rx="12" ry="20" fill="#84cc16" transform="rotate(35)"/>
+    <path d="M 0 -15 Q -5 -10, 0 5" stroke="#65a30d" stroke-width="1.5" fill="none"/>
+  </g>
+  
+  <!-- Center top leaf -->
+  <g transform="translate(200, 75)">
+    <ellipse cx="0" cy="0" rx="10" ry="18" fill="#10b981"/>
+    <path d="M 0 -13 Q 4 -8, 0 4" stroke="#059669" stroke-width="1.5" fill="none"/>
+  </g>
+  
+  <!-- Plus sign on leaf -->
+  <g transform="translate(200, 95)">
+    <rect x="-2" y="-8" width="4" height="16" fill="#10b981"/>
+    <rect x="-8" y="-2" width="16" height="4" fill="#10b981"/>
+  </g>
+  
+  <!-- Text: Alimenta+ -->
+  <text x="200" y="320" font-family="Arial, sans-serif" font-size="48" font-weight="bold" text-anchor="middle" fill="#003a7a">
+    Alimenta
+  </text>
+  <text x="280" y="320" font-family="Arial, sans-serif" font-size="48" font-weight="bold" text-anchor="start" fill="#10b981">
+    +
+  </text>
+</svg>
